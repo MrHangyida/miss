@@ -1,0 +1,91 @@
+
+.el-button{
+    background: #FF8c00;
+    border-color:#FF8c00;
+  }
+  .el-button:focus,.el-button:hover{
+    color:#409EFF;
+    border-color:#FF8c00;
+    background-color:#FF8c00
+  }
+  .el-button:active{
+    color:#3a8ee6;
+    border-color:#FF8c00;
+    outline:0
+  }
+  .el-button--text{
+    background-color:transparent;
+    border-color: transparent;
+    color: #FF8c00;
+  }
+  .el-button--text:focus,.el-button--text:hover{
+    background-color:transparent;
+    color:#409EFF;
+    border-color:transparent;
+  }
+
+  .el-tag{
+    background-color:transparent;
+    color: #FF8c00;
+    border-color: transparent;
+  }
+  
+  .tag-style{
+    height: 40px;
+    background: #e1e1e1;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #FF8c00;
+    padding-left: 30px;
+    line-height: 100%;
+  }
+  .tag-style-button{
+    margin-top: -10px;
+  }
+  //头像样式
+  .avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+  }
+  .avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 178px;
+    height: 178px;
+    line-height: 178px;
+    text-align: center;
+  }
+  .avatar {
+    width: 178px;
+    height: 178px;
+    display: block;
+  }
+  .el-button{
+    color: #EEE;
+  }
+  .el-button:focus, .el-button:hover{
+    color: #FFF;
+  }
+  .el-button--text{
+    color: #FF8c00;
+  }
+  .el-button--text:focus, .el-button--text:hover{
+    color: #FF8c00;
+  }
+  .el-tag--small:hover{
+    color: #409EFF;
+  }
+  .el-submenu .el-menu-item{
+    line-height: 10px;
+    height: 40px;
+  }
+  #app .sidebar-container.has-logo .el-scrollbar{
+    height: calc(100% - 100px);
+  }
